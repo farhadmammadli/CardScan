@@ -9,7 +9,7 @@ services:
         environment:
             - TZ=Asia/Tbilisi
             - ASPNETCORE_ENVIRONMENT=Production
-            - VIRTUAL_HOST=video.farhadmammadli.com
+            - VIRTUAL_HOST=card-scan.farhadmammadli.com
         logging:
             driver: "json-file"
             options:
